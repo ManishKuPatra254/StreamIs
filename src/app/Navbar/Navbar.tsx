@@ -15,7 +15,8 @@ export function Navbar() {
             <select
               className="bg-transparent border-2 rounded p-1"
               name="language"
-              id="language">
+              id="language"
+            >
               <option value="english">English</option>
               <option value="hindi">हिन्दी</option>
             </select>
