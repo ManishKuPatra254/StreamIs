@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
-import Image from "next/image";
-import image1 from "../assets/176289_Untitleddesign-2022-11-25T114744.329.png";
+import "./Navbar.css";
+import TextField from "@mui/material/TextField";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export function Navbar() {
   return (
     <Fragment>
-      <div className="relative">
-        <Image src={image1} alt="" className="w-full h-auto" />
-        <div className="absolute inset-0 flex justify-between items-start px-4 py-3 lg:flex lg:flex-row lg:items-start lg:px-24">
-          <h1 className=" bg-slate-950  p-1 rounded text-2xl lg:text-5xl inline px-4 text-red-600">
+      <div className="main_one">
+        <div className=" inset-0 flex justify-between items-start px-4 py-3 lg:flex lg:flex-row lg:items-start lg:px-24">
+          <h1 className=" p-1 rounded text-2xl lg:text-5xl inline px-4 text-red">
             Streamis
           </h1>
           <div className="flex gap-3 p-1">
@@ -25,6 +25,35 @@ export function Navbar() {
                 Sign in
               </button>
             </a>
+          </div>
+        </div>
+        <div className="block">
+          <h1 className="text-center text-3xl font-extrabold mt-44 px-4 lg:text-6xl lg:px-72">
+            Get unlimited access to movies , TV shows , web series and more
+          </h1>
+          <p className="text-center text-xl mt-14 px-4 lg:text-2xl lg:px-96">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div className="flex items-center justify-center mt-7 gap-3 max-lg:flex-col">
+            <TextField
+              label="Email address"
+              variant="filled"
+              className="text"
+              type="email"
+              placeholder="Enter email address"
+              sx={{
+                width: "40%",
+                border: "3px solid white",
+                borderRadius: "5px",
+                color: "white",
+                "& .MuiInputBase-input": { color: "rgb(255,255,255)" },
+              }}
+            />
+
+            <button className="bg-red-600 p-4 rounded text-xl font-extrabold  ">
+              Get Started <ArrowForwardIosIcon />
+            </button>
           </div>
         </div>
       </div>
