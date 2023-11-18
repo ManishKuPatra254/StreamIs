@@ -43,7 +43,11 @@ export function Navbar() {
               type="email"
               placeholder="Enter email address"
               sx={{
-                width: "40%",
+                maxWidth: "40%",
+                width: "100%",
+                "@media screen and (max-width: 1024px)": {
+                  maxWidth: "90%",
+                },
                 border: "3px solid white",
                 borderRadius: "5px",
                 color: "white",
