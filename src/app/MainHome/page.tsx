@@ -7,6 +7,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
+import Image from "next/image";
+import image1 from "../assets/n1.jpg";
 
 export default function Page() {
   const [isSidebar, setSidebar] = useState(false);
@@ -87,8 +89,14 @@ export default function Page() {
           </Avatar>
         </div>
       </div>
-    
-    
+      <div className="border-2 overflow-hidden">
+        <Image src={image1} className="w-2/6" alt="" />
+
+        {/* <Image src="" alt="" />
+        <Image src="" alt="" />
+        <Image src="" alt="" />
+        <Image src="" alt="" /> */}
+      </div>
     </Fragment>
   );
 }
