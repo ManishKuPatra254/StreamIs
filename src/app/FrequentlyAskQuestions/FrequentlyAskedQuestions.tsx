@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export function FrequentlyAskedQuestions() {
-  const [expanded, setExpanded] = React.useState<string | false>(false);
+  const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
@@ -32,21 +32,243 @@ export function FrequentlyAskedQuestions() {
             onChange={handleChange("panel1")}
           >
             <AccordionSummary
-              expandIcon={<KeyboardArrowDownIcon />}
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
-              <Typography sx={{ color: "white" }}>What is Streamis</Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                What is Streamis ?
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography sx={{ color: "white" }}>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
                 Streamis is a streaming service that offers a wide variety of
                 award-winning TV shows, movies, anime, documentaries and more –
-                on thousands of internet-connected devices. <br /> <br />
+                on thousands of internet-connected devices.
+                <br /> <br />
                 You can watch as much as you want, whenever you want, without a
-                single ad – all for one low monthly price. There is always
-                something new to discover, and new TV shows and movies are added
-                every week!
+                single ad – all for one low monthly price.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          <Accordion
+            sx={{ backgroundColor: "#2c2c2c" }}
+            expanded={expanded === "panel2"}
+            onChange={handleChange("panel2")}
+          >
+            <AccordionSummary
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              aria-controls="panel2bh-content"
+              id="panel2bh-header"
+            >
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                {" "}
+                How much does Streamis cost ?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                Watch Streamis on your smartphone, tablet, Smart TV, laptop, or
+                streaming device, all for one fixed monthly fee. Plans range
+                from ₹ 100 to ₹ 400 a month. No extra costs, no contracts.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            sx={{ backgroundColor: "#2c2c2c" }}
+            expanded={expanded === "panel3"}
+            onChange={handleChange("panel3")}
+          >
+            <AccordionSummary
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              aria-controls="panel3bh-content"
+              id="panel3bh-header"
+            >
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                {" "}
+                Where can I watch ?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                Watch anywhere, anytime. Sign in with your Streamis account to
+                watch instantly on the web at streamis.com from your personal
+                computer or on any internet-connected device that offers the
+                Streamis app, including smart TVs, smartphones, tablets,
+                streaming media players and game consoles.
+                <br /> <br />
+                You can also download your favourite shows with the iOS,
+                Android, or Windows 10 app. Use downloads to watch while you are
+                on the go and without an internet connection. Take Streamis with
+                you anywhere.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            sx={{ backgroundColor: "#2c2c2c" }}
+            expanded={expanded === "panel4"}
+            onChange={handleChange("panel4")}
+          >
+            <AccordionSummary
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              aria-controls="panel4bh-content"
+              id="panel4bh-header"
+            >
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                {" "}
+                How do I cancel ?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                Streamis is flexible. There are no annoying contracts and no
+                commitments. You can easily cancel your account online in two
+                clicks. There are no cancellation fees – start or stop your
+                account anytime.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            sx={{ backgroundColor: "#2c2c2c" }}
+            expanded={expanded === "panel5"}
+            onChange={handleChange("panel5")}
+          >
+            <AccordionSummary
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              aria-controls="panel5bh-content"
+              id="panel5bh-header"
+            >
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                {" "}
+                What I can watch on Streamis ?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                Streamis has an extensive library of feature films,
+                documentaries, TV shows, anime, award-winning Streamis
+                originals, and more. Watch as much as you want, anytime you
+                want.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            sx={{ backgroundColor: "#2c2c2c" }}
+            expanded={expanded === "panel6"}
+            onChange={handleChange("panel6")}
+          >
+            <AccordionSummary
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              aria-controls="panel6bh-content"
+              id="panel6bh-header"
+            >
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "26px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                {" "}
+                Is Streamis good for kids ?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <Typography
+                sx={{
+                  color: "white",
+                  fontSize: "22px",
+                  "@media screen and (max-width: 1024px)": {
+                    fontSize: "16px",
+                  },
+                }}
+              >
+                The Netflix Kids experience is included in your membership to
+                give parents control while kids enjoy family-friendly TV shows
+                and films in their own space.
               </Typography>
             </AccordionDetails>
           </Accordion>

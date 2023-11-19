@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./Navbar.css";
 import TextField from "@mui/material/TextField";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Link from "next/link";
 
 export function Navbar() {
   return (
@@ -20,11 +21,11 @@ export function Navbar() {
               <option value="english">English</option>
               <option value="hindi">हिन्दी</option>
             </select>
-            <a href="">
+            <Link href="/home">
               <button className="bg-sky-900  hover:bg-sky-950 transition duration-500 ease-in-out px-3 py-1 rounded-md font-bold text-white">
                 Sign in
               </button>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="block">
