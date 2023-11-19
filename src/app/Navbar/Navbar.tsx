@@ -21,7 +21,7 @@ export function Navbar() {
               <option value="english">English</option>
               <option value="hindi">हिन्दी</option>
             </select>
-            <Link href="/home">
+            <Link href="/MainHome">
               <button className="bg-sky-900  hover:bg-sky-950 transition duration-500 ease-in-out px-3 py-1 rounded-md font-bold text-white">
                 Sign in
               </button>
