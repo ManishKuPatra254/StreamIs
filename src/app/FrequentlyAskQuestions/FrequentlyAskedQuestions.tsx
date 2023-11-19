@@ -2,13 +2,19 @@
 import React, { Fragment, useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import TextField from "@mui/material/TextField";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionSummary";
+import Typography from "@mui/material/Typography";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export function FrequentlyAskedQuestions() {
-  const [isParagraphVisible, setIsParagraphVisible] = useState(false);
+  const [expanded, setExpanded] = React.useState<string | false>(false);
 
-  const handleLabelClick = () => {
-    setIsParagraphVisible((prev) => !prev);
-  };
+  const handleChange =
+    (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+      setExpanded(isExpanded ? panel : false);
+    };
 
   return (
     <Fragment>
@@ -23,15 +29,11 @@ export function FrequentlyAskedQuestions() {
             <li>
               <label
                 htmlFor="first"
-                onClick={handleLabelClick}
                 className=" cursor-pointer bg-neutral-900 flex items-center justify-start w-3/4 m-auto p-6 text-3xl  text-center max-lg:w-11/12 max-lg:text-lg"
               >
                 What is Streamis ?
               </label>
-              <div
-                className="text-justify"
-                style={{ display: isParagraphVisible ? "block" : "none" }}
-              >
+              <div className="text-justify">
                 <p className="hidden">
                   Streamis is a streaming service that offers a wide variety of
                   award-winning TV shows, movies, anime, documentaries and more
