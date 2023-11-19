@@ -4,8 +4,65 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: switch_image 15s infinite ease-in-out;
+}
+
+.heads_one {
+    font-family: var(--new-text);
 }
 
 .text label {
     color: white;
+}
+
+@keyframes switch_image {
+    0% {
+        background-image: url('https://i.pinimg.com/originals/41/d4/fd/41d4fd7eff14807e3488c39adec90597.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 3s ease-in-out;
+    }
+
+    10% {
+        background-image: url('../assets/money-heist-segtwbhffwy01w82.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    20% {
+        background-image: url('https://www.hdwallpapers.in/download/poster_of_dune_2020_4k_hd_movies-1920x1080.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url('../assets/HD-wallpaper-movie-black-panther-wakanda-forever.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url('https://images.herzindagi.info/image/2023/Jul/the-marvels-cast.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url('https://images.expothemes.com/iron-man-3/images/iron-man-3-windows-theme-1-hd.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://www.hdwallpapers.in/download/elisabeth_moss_the_invisible_man_2020_poster_hd_movies-1920x1080.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

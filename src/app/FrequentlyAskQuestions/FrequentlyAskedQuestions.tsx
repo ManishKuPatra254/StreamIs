@@ -166,7 +166,7 @@ export function FrequentlyAskedQuestions() {
               }}
             />
 
-            <button className="bg-red-600 p-4 rounded text-xl font-extrabold max-lg:w-3/4">
+            <button className="bg-sky-900 hover:bg-sky-950 transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold max-lg:w-3/4">
               Get Started <ArrowForwardIosIcon />
             </button>
           </div>

@@ -8,7 +8,7 @@ export function Navbar() {
     <Fragment>
       <div className="main_one">
         <div className=" inset-0 flex justify-between items-start px-4 py-3 lg:flex lg:flex-row lg:items-start lg:px-24">
-          <h1 className=" p-1 rounded text-2xl lg:text-5xl inline px-4 text-red">
+          <h1 className=" heads_one  p-1 text-2xl lg:text-5xl inline px-4">
             Streamis
           </h1>
           <div className="flex gap-3 p-1">
@@ -21,7 +21,7 @@ export function Navbar() {
               <option value="hindi">हिन्दी</option>
             </select>
             <a href="">
-              <button className="bg-red-600 px-3 py-1 rounded-md font-bold text-white">
+              <button className="bg-sky-900  hover:bg-sky-950 transition duration-500 ease-in-out px-3 py-1 rounded-md font-bold text-white">
                 Sign in
               </button>
             </a>
@@ -55,7 +55,7 @@ export function Navbar() {
               }}
             />
 
-            <button className="bg-red-600 p-4 rounded text-xl font-extrabold  ">
+            <button className="bg-sky-900 hover:bg-sky-950 transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold  ">
               Get Started <ArrowForwardIosIcon />
             </button>
           </div>
