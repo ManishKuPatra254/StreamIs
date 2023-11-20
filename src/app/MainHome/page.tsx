@@ -18,6 +18,7 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { TrendingShows } from "../TrendingShows/TrendingShows";
 import { PopularWeb } from "../PopularWebShows/PopularWeb";
+import { Footer } from "../Footer/Footer";
 
 export default function Page() {
   const [isSidebar, setSidebar] = useState(false);
@@ -181,6 +182,7 @@ export default function Page() {
       </div>
       <TrendingShows />
       <PopularWeb />
+      <Footer />
     </Fragment>
   );
 }

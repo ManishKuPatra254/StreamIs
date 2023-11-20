@@ -11,6 +11,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: "codervent.com",
             },
+            {
+                protocol: 'https',
+                hostname: "wallpapercave.com",
+            },
         ],
     },
 }

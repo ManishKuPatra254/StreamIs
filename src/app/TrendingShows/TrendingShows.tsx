@@ -73,20 +73,23 @@ export function TrendingShows() {
           <div className="w-11/12 m-auto ">
             <Slider {...settings}>
               {dataForTrending.map((items) => (
-                <div key={items.id} className="relative">
+                <div key={items.id} className="relative overflow-hidden group">
                   <Image
                     loading="eager"
-                    onClick={() => {
-                      if (items.links_new) {
-                        handleClickOpenModalOnImageClick(items.links_new);
-                      }
-                    }}
-                    className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform duration-300 ease-in-out hover:scale-110"
+                    className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform duration-300 ease-in-out hover:scale-110 "
                     src={items.images_movie}
                     width={100}
                     height={100}
                     alt=""
                   />
+                  <button
+                    onClick={() =>
+                      handleClickOpenModalOnImageClick(items.links_new)
+                    }
+                    className="absolute hidden bottom-[10px] text-white left-[25%] px-8 py-2 bg-orange-700 rounded-sm font-extrabold hover:bg-white hover:text-black transition duration-700 ease-in-out group-hover:block"
+                  >
+                    Play
+                  </button>
                   <Modal
                     keepMounted
                     open={open}
