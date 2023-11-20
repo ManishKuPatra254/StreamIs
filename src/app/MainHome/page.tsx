@@ -17,6 +17,7 @@ import ReactPlayer from "react-player/youtube";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { TrendingShows } from "../TrendingShows/TrendingShows";
+import { PopularWeb } from "../PopularWebShows/PopularWeb";
 
 export default function Page() {
   const [isSidebar, setSidebar] = useState(false);
@@ -179,6 +180,7 @@ export default function Page() {
         <Image src={image3} className="w-2/6 max-lg:hidden" alt="" />
       </div>
       <TrendingShows />
+      <PopularWeb />
     </Fragment>
   );
 }
