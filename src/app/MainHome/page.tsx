@@ -16,6 +16,7 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import ReactPlayer from "react-player/youtube";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
+import { TrendingShows } from "../TrendingShows/TrendingShows";
 
 export default function Page() {
   const [isSidebar, setSidebar] = useState(false);
@@ -109,7 +110,11 @@ export default function Page() {
       <div className="flex items-center overflow-hidden">
         <Image src={image1} className="w-2/6 max-lg:hidden" alt="" />
         <div className="relative">
-          <Image src={image2} className="w-full max-xl:w-full object-fill max-lg:w-full max-lg:object-cover" alt="" />
+          <Image
+            src={image2}
+            className="w-full max-xl:w-full object-fill max-lg:w-full max-lg:object-cover"
+            alt=""
+          />
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <h1 className="text-6xl text-slate-100 font-extrabold max-lg:text-5xl">
               John Wick
@@ -173,6 +178,7 @@ export default function Page() {
         </div>
         <Image src={image3} className="w-2/6 max-lg:hidden" alt="" />
       </div>
+      <TrendingShows />
     </Fragment>
   );
 }
