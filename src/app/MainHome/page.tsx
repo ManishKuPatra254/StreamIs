@@ -48,22 +48,22 @@ export default function Page() {
         <Drawer anchor="left" open={isSidebar} onClose={handleToggleSidebar}>
           <List>
             <ListItem>
+              <p>Tv Shows</p>
+            </ListItem>
+            <ListItem>
+              <p>Web Shows</p>
+            </ListItem>
+            <ListItem>
               <p>Movies</p>
             </ListItem>
             <ListItem>
-              <p>Web shows</p>
-            </ListItem>
-            <ListItem>
-              <p>Reality shows</p>
-            </ListItem>
-            <ListItem>
-              <p>New and popular</p>
+              <p>New and Popular</p>
             </ListItem>
           </List>
         </Drawer>
         <div className="flex items-center">
           <h1 className="text-5xl font-extrabold  px-14 py-1 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
-            Streamis
+          <strong className="text-[#dc6f54]">S</strong>tream<strong className="text-[#dc6f54]">I</strong>s 
           </h1>
           <ul className=" p-3 flex gap-4 text-xl font-[500] max-xl:hidden">
             <li className="px-2.5 py-1.5 rounded-[5px] cursor-pointer hover:text-[#000] hover:bg-[#E25E3E] transition duration-300 ease-in-out max-lg:px-0 max-lg:py-0">
@@ -142,7 +142,7 @@ export default function Page() {
             <div className="flex gap-4 mt-4">
               <button
                 onClick={handleClickOpenModal}
-                className="flex items-center gap-1 bg-gray-100 font-semibold text-2xl px-10 py-1 text-black rounded-sm max-lg:text-xl max-lg:px-3"
+                className="flex items-center gap-1 bg-[#ffffff96] font-bold text-2xl px-10 py-1 text-black rounded hover:bg-[#fff] transition duration-300 ease-in-out max-lg:text-xl max-lg:px-3"
               >
                 <PlayArrowIcon /> Play
               </button>
@@ -177,7 +177,7 @@ export default function Page() {
                 </Box>
               </Modal>
 
-              <button className="flex items-center gap-1 text-2xl font-semibold bg-red-700 px-5 py-1 text-white rounded-sm max-lg:text-xl max-lg:px-3">
+              <button className="flex items-center gap-1 text-2xl font-bold bg-[#950101] px-5 py-1 text-white rounded hover:bg-[#3d0000c5] transition duration-300 ease-in-out max-lg:text-xl max-lg:px-3">
                 <InfoOutlinedIcon /> More info
               </button>
             </div>
