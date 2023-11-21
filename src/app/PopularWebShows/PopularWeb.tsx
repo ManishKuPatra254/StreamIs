@@ -73,20 +73,27 @@ export function PopularWeb() {
           <div className="w-11/12 m-auto ">
             <Slider {...settings}>
               {dataPopularWeb.map((indexes) => (
-                <div key={indexes.id} className="relative">
+                <div
+                  key={indexes.id}
+                  className="relative overflow-hidden group"
+                >
                   <Image
                     loading="eager"
-                    onClick={() => {
-                      if (indexes.links_new) {
-                        handleClickOpenModalOnImageClick(indexes.links_new);
-                      }
-                    }}
                     className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform transition duration-500 ease-in-out hover:scale-110"
                     src={indexes.images_movie}
                     width={500}
                     height={500}
                     alt=""
                   />
+
+                  <button
+                    onClick={() =>
+                      handleClickOpenModalOnImageClick(indexes.links_new)
+                    }
+                    className="w-4/5 absolute hidden bottom-[10px] left-[18px] text-white px-8 py-2 bg-[#950101] rounded-sm font-extrabold hover:bg-white hover:text-black transition duration-700 ease-in-out group-hover:block"
+                  >
+                    Play
+                  </button>
                   <Modal
                     keepMounted
                     open={open}

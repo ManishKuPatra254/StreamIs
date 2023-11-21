@@ -38,7 +38,7 @@ export default function Page() {
 
   return (
     <Fragment>
-      <div className=" sticky top-0 bg-[crimson] z-10 flex items-center justify-between max-lg:w-full max-lg:justify-around py-3 ">
+      <div className=" sticky top-0 bg-[#3D0000] z-10 flex items-center justify-between max-lg:w-full max-lg:justify-around py-3 ">
         <p onClick={handleToggleSidebar} className="hidden max-xl:block">
           <MenuIcon onClick={handleToggleSidebar} sx={{ fontSize: "30px" }} />
         </p>
@@ -63,16 +63,16 @@ export default function Page() {
             Streamis
           </h1>
           <ul className=" p-3 flex gap-4 text-xl font-[500] max-xl:hidden">
-            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+            <li className="px-2.5 py-1.5 rounded-[5px] cursor-pointer hover:text-[#000] hover:bg-[#E25E3E] transition duration-300 ease-in-out max-lg:px-0 max-lg:py-0">
               Tv Shows
             </li>
-            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+            <li className="px-2.5 py-1.5 rounded-[5px] cursor-pointer hover:text-[#000] hover:bg-[#E25E3E] transition duration-300 ease-in-out max-lg:px-0 max-lg:py-0">
               Web shows
             </li>
-            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+            <li className="px-2.5 py-1.5 rounded-[5px] cursor-pointer hover:text-[#000] hover:bg-[#E25E3E] transition duration-300 ease-in-out max-lg:px-0 max-lg:py-0">
               Movies
             </li>
-            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+            <li className="px-2.5 py-1.5 rounded-[5px] cursor-pointer hover:text-[#000] hover:bg-[#E25E3E] transition duration-300 ease-in-out max-lg:px-0 max-lg:py-0">
               New and Popular
             </li>
           </ul>
