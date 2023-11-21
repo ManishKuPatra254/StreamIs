@@ -58,23 +58,25 @@ export default function Page() {
             </ListItem>
           </List>
         </Drawer>
-        <h1 className="text-5xl  px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
-          Streamis
-        </h1>
-        <ul className=" bg-zinc-800 p-3 rounded-full flex gap-4 text-xl font-bold max-xl:hidden">
-          <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
-            Movies
-          </li>
-          <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
-            Web shows
-          </li>
-          <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
-            Reality shows
-          </li>
-          <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
-            New and popular
-          </li>
-        </ul>
+        <div className="flex items-center">
+          <h1 className="text-5xl font-extrabold  px-14 py-1 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
+            Streamis
+          </h1>
+          <ul className=" p-3 flex gap-4 text-xl font-[500] max-xl:hidden">
+            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+              Tv Shows
+            </li>
+            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+              Web shows
+            </li>
+            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+              Movies
+            </li>
+            <li className="cursor-pointer hover:text-zinc-400 transition duration-300 ease-in-out">
+              New and Popular
+            </li>
+          </ul>
+        </div>
         <div className="flex items-center px-14 py-3 gap-5 max-lg:gap-3 max-lg:px-5 max-lg:py-2">
           <p className="cursor-pointer">
             <SearchOutlinedIcon

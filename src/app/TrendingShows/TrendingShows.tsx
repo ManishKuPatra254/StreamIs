@@ -78,8 +78,8 @@ export function TrendingShows() {
                     loading="eager"
                     className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform duration-300 ease-in-out hover:scale-110 "
                     src={items.images_movie}
-                    width={100}
-                    height={100}
+                    width={500}
+                    height={500}
                     alt=""
                   />
                   <button

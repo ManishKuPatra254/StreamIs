@@ -83,8 +83,8 @@ export function PopularWeb() {
                     }}
                     className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform transition duration-500 ease-in-out hover:scale-110"
                     src={indexes.images_movie}
-                    width={100}
-                    height={100}
+                    width={500}
+                    height={500}
                     alt=""
                   />
                   <Modal
