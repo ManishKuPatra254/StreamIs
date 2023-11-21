@@ -38,7 +38,7 @@ export default function Page() {
 
   return (
     <Fragment>
-      <div className="flex items-center justify-between max-lg:w-full max-lg:justify-around py-3 ">
+      <div className=" sticky top-0 bg-[crimson] z-10 flex items-center justify-between max-lg:w-full max-lg:justify-around py-3 ">
         <p onClick={handleToggleSidebar} className="hidden max-xl:block">
           <MenuIcon onClick={handleToggleSidebar} sx={{ fontSize: "30px" }} />
         </p>
@@ -58,7 +58,7 @@ export default function Page() {
             </ListItem>
           </List>
         </Drawer>
-        <h1 className="text-5xl font-extrabold px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
+        <h1 className="text-5xl  px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
           Streamis
         </h1>
         <ul className=" bg-zinc-800 p-3 rounded-full flex gap-4 text-xl font-bold max-xl:hidden">
@@ -109,7 +109,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex items-center overflow-hidden">
+      <div className=" flex items-center overflow-hidden">
         <Image src={image1} className="w-2/6 max-lg:hidden" alt="" />
         <div className="relative">
           <Image

@@ -16,7 +16,6 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
     --text-family: sans-serif;
-    --new-text: 'Seymour One', sans-serif;
   }
 }
 
@@ -31,7 +30,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: var(--new-text);
 }
 
 .slick-side>div {

@@ -1,3 +1,4 @@
+"use client";
 import React, { Fragment } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
