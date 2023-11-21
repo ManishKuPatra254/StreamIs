@@ -86,7 +86,7 @@ export function TrendingShows() {
                     onClick={() =>
                       handleClickOpenModalOnImageClick(items.links_new)
                     }
-                    className="absolute hidden bottom-[10px] text-white left-[25%] px-8 py-2 bg-orange-700 rounded-sm font-extrabold hover:bg-white hover:text-black transition duration-700 ease-in-out group-hover:block"
+                    className="w-4/5 absolute hidden bottom-[10px] left-[18px] text-white px-8 py-2 bg-[#950101] rounded-sm font-extrabold hover:bg-white hover:text-black transition duration-700 ease-in-out group-hover:block"
                   >
                     Play
                   </button>
