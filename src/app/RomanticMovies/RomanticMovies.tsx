@@ -67,7 +67,7 @@ export function BestReailtyShows() {
     <Fragment>
       <div className=" mt-12">
         <h1 className="text-5xl font-extrabold px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
-          Best Reailty Shows
+         Best Romantic Movies
         </h1>
         <div className="w-full m-auto mt-8">
           <div className="w-11/12 m-auto ">
