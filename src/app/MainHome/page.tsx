@@ -20,6 +20,7 @@ import { TrendingShows } from "../TrendingShows/TrendingShows";
 import { PopularWeb } from "../PopularWebShows/PopularWeb";
 import { BestReailtyShows } from "../BestRealityShows/BestRealityShows";
 import { RomanticMovies } from "../RomanticMovies/RomanticMovies";
+import { BollywoodHits } from "../BollywoodHits/BollywoodHits";
 import { Footer } from "../Footer/Footer";
 
 export default function Page() {
@@ -188,6 +189,7 @@ export default function Page() {
       <PopularWeb />
       <BestReailtyShows />
       <RomanticMovies />
+      <BollywoodHits />
       <Footer />
     </Fragment>
   );

@@ -1,6 +1,6 @@
 "use client";
 import React, { Fragment, useState } from "react";
-import dataRomanticMovies from "./romanticmovies.json";
+import dataBollywoodHits from "./bollywoodhits.json";
 import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box } from "@mui/material";
 import ReactPlayer from "react-player/youtube";
 
-export function RomanticMovies() {
+export function BollywoodHits() {
   const [open, setOpen] = useState(false);
   const [videoOpen, setVideoOpen] = useState<string | null>(null);
 
@@ -29,7 +29,7 @@ export function RomanticMovies() {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     centerMode: false,
     responsive: [
@@ -67,20 +67,20 @@ export function RomanticMovies() {
     <Fragment>
       <div className=" mt-12">
         <h1 className="text-5xl font-extrabold px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
-          Best Romantic Movies
+          Bollywood Hits
         </h1>
         <div className="w-full m-auto mt-8">
           <div className="w-11/12 m-auto ">
             <Slider {...settings}>
-              {dataRomanticMovies.map((romance) => (
+              {dataBollywoodHits.map((bollyhit) => (
                 <div
-                  key={romance.id}
+                  key={bollyhit.id}
                   className="relative overflow-hidden group"
                 >
                   <Image
                     loading="eager"
                     className="cursor-pointer scale-100 h-[80%] w-[88%] hover:transition-transform transform transition duration-500 ease-in-out hover:scale-110"
-                    src={romance.images_movie}
+                    src={bollyhit.images_movie}
                     width={500}
                     height={500}
                     alt=""
@@ -88,7 +88,7 @@ export function RomanticMovies() {
 
                   <button
                     onClick={() =>
-                      handleClickOpenModalOnImageClick(romance.links_new)
+                      handleClickOpenModalOnImageClick(bollyhit.links_new)
                     }
                     className="w-4/5 absolute hidden bottom-[10px] left-[18px] text-white px-8 py-2 bg-[#950101] rounded-sm font-extrabold hover:bg-white hover:text-black transition duration-700 ease-in-out group-hover:block"
                   >
