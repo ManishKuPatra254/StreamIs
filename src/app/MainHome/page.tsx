@@ -18,6 +18,7 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { TrendingShows } from "../TrendingShows/TrendingShows";
 import { PopularWeb } from "../PopularWebShows/PopularWeb";
+import { BestReailtyShows } from "../BestRealityShows/BestRealityShows";
 import { Footer } from "../Footer/Footer";
 
 export default function Page() {
@@ -184,6 +185,7 @@ export default function Page() {
       </div>
       <TrendingShows />
       <PopularWeb />
+      <BestReailtyShows />
       <Footer />
     </Fragment>
   );

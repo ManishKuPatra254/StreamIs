@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/01.png",
+        "links_new": "https://youtu.be/qtZ2qDQorF4?si=xWnscQq2TV48XVXn"
+    },
+    {
+        "id": 2,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/02.png",
+        "links_new": "https://youtu.be/4QCJLwhWTBU?si=3nE52SOLnQVFf0ip"
+    },
+    {
+        "id": 3,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/03.png",
+        "links_new": "https://youtu.be/Jxy6AM1oRyU?si=KA3dOwqbllXfRyqp"
+    },
+    {
+        "id": 4,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/04.png",
+        "links_new": "https://youtu.be/JWNPYZD1Wb8?si=VKOvVTDYcGwo1_WH"
+    },
+    {
+        "id": 5,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/05.png",
+        "links_new": "https://youtu.be/MbflmEyMamg?si=E6uKc8JQ0oZBJ-vH"
+    },
+    {
+        "id": 6,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/07.png",
+        "links_new": "https://youtu.be/OlKTVDMwhgs?si=clneSRkR6T9Vq8Jy"
+    },
+    {
+        "id": 7,
+        "images_movie": "https://codervent.com/synplayer/assets/images/reality-shows/08.png",
+        "links_new": "https://youtu.be/1nr3Dscpt2E?si=iXOH1IQzHT32flB9"
+    },
+    {
+        "id": 8,
+        "images_movie": "https://www.themoviedb.org/t/p/original/aOLBH46YI5C0uuzeIgsOuWPn6yt.jpg",
+        "links_new": "https://youtu.be/M8R6Qymdk58?si=eWsCDmRcskw8a2Yr"
+    },
+    {
+        "id": 9,
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BMWJkZDhiYjItZjE4Ny00NWU3LWFhYTgtODg4ZWNkNGQyN2FlXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+        "links_new": "https://youtu.be/moT0rRPYXw4?si=RAf3-myvfV6Abz27"
+    },
+    {
+        "id": 10,
+        "images_movie": "https://codervent.com/synplayer/assets/images/comedy-shows/05.png",
+        "links_new": "https://youtu.be/oKYkZqF_ZZY?si=sF9JOCej_sjXaYgu"
+    },
+    {
+        "id": 11,
+        "images_movie": "https://codervent.com/synplayer/assets/images/drama-shows/07.png",
+        "links_new": "https://youtu.be/YxrY_I8COC0?si=LJY4cKOpXK6YuIzD"
+    },
+    {
+        "id": 12,
+        "images_movie": "https://codervent.com/synplayer/assets/images/drama-shows/08.png",
+        "links_new": "https://youtu.be/VxDNFHvHQiQ?si=ndktB0ixSC7MtKll"
+    },
+    {
+        "id": 13,
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BOWY0MzQ0MTctZjUxMC00YzA4LWIxYWYtN2U2YmM1ZGYyNmJiXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
+        "links_new": "https://youtu.be/cjx7yB0P5o4?si=j2EakAhkTRWMQPUi"
+    },
+    {
+        "id": 14,
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BNzc1YmQ4ZWMtYzI2Ni00ZDZkLWE5OTEtMmNlMzYxZGMyY2M3XkEyXkFqcGdeQXVyMTE0MzY0NjE1._V1_FMjpg_UX1000_.jpg",
+        "links_new": "https://youtu.be/ryVQQ9MSxjM?si=_18L9DvrdRzSDcX0"
+    },
+    {
+        "id": 15,
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BNjQ3YzYyNzEtNGFkYS00MGFhLWJlYjAtNGQwODM2ZWU2OTVhXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg",
+        "links_new": "https://youtu.be/teh2FVEoyUo?si=q0xsv8ALDGYlgCVC"
+    }
+]
