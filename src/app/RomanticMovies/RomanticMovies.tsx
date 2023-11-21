@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Box } from "@mui/material";
 import ReactPlayer from "react-player/youtube";
 
-export function BestReailtyShows() {
+export function RomanticMovies() {
   const [open, setOpen] = useState(false);
   const [videoOpen, setVideoOpen] = useState<string | null>(null);
 
@@ -27,9 +27,9 @@ export function BestReailtyShows() {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
-    speed: 800,
+    speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 4,
     initialSlide: 0,
     centerMode: false,
     responsive: [
@@ -67,7 +67,7 @@ export function BestReailtyShows() {
     <Fragment>
       <div className=" mt-12">
         <h1 className="text-5xl font-extrabold px-14 py-3 max-lg:text-2xl max-lg:px-10 max-lg:py-2">
-         Best Romantic Movies
+          Best Romantic Movies
         </h1>
         <div className="w-full m-auto mt-8">
           <div className="w-11/12 m-auto ">

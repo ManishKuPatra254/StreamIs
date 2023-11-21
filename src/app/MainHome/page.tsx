@@ -19,6 +19,7 @@ import Box from "@mui/material/Box";
 import { TrendingShows } from "../TrendingShows/TrendingShows";
 import { PopularWeb } from "../PopularWebShows/PopularWeb";
 import { BestReailtyShows } from "../BestRealityShows/BestRealityShows";
+import { RomanticMovies } from "../RomanticMovies/RomanticMovies";
 import { Footer } from "../Footer/Footer";
 
 export default function Page() {
@@ -186,6 +187,7 @@ export default function Page() {
       <TrendingShows />
       <PopularWeb />
       <BestReailtyShows />
+      <RomanticMovies />
       <Footer />
     </Fragment>
   );
