@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Navbar } from "./Navbar/Navbar";
 import { DisplayFeatures } from "./DisplayFeatures/DisplayFeatures";
-import { FrequentlyAskedQuestions } from "./FrequentlyAskQuestions/FrequentlyAskedQuestions";
+import { FAQs } from "./FAQs/FrequentlyAskedQuestions";
 import { Footer } from "./Footer/Footer";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <div className="">
         <Navbar />
         <DisplayFeatures />
-        <FrequentlyAskedQuestions />
+        <FAQs />
         <Footer />
       </div>
     </main>

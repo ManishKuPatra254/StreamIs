@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="main_one">
         <div className=" inset-0 flex justify-between items-start px-4 py-3 lg:flex lg:flex-row lg:items-start lg:px-24">
           <h1 className=" heads_one  p-1 text-2xl lg:text-5xl inline px-4">
-            Streamis
+          <strong className="text-[#dc6f54]">S</strong>tream<strong className="text-[#dc6f54]">I</strong>s 
           </h1>
           <div className="flex gap-3 p-1">
             <select
@@ -22,7 +22,7 @@ export function Navbar() {
               <option value="hindi">हिन्दी</option>
             </select>
             <Link href="/MainHome">
-              <button className="bg-sky-900  hover:bg-sky-950 transition duration-500 ease-in-out px-3 py-1 rounded-md font-bold text-white">
+              <button className="bg-[#3d0000]  hover:bg-[#fff] hover:text-[#000] transition duration-500 ease-in-out px-5 py-1.5 rounded-md font-bold text-white">
                 Sign in
               </button>
             </Link>
@@ -32,11 +32,7 @@ export function Navbar() {
           <h1 className="text-center text-3xl font-extrabold mt-44 px-4 lg:text-6xl lg:px-72">
             Get unlimited access to movies , TV shows , web series and more
           </h1>
-          <p className="text-center text-xl mt-14 px-4 lg:text-2xl lg:px-96">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </p>
-          <div className="flex items-center justify-center mt-7 gap-3 max-lg:flex-col">
+          <div className="flex items-center flex-col justify-center mt-7 gap-3 max-lg:flex-col">
             <TextField
               label="Email address"
               variant="filled"
@@ -56,7 +52,7 @@ export function Navbar() {
               }}
             />
 
-            <button className="bg-sky-900 hover:bg-sky-950 transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold  ">
+            <button className="w-3/12 bg-[#3d0000] hover:bg-[white] hover:text-black transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold max-lg:w-11/12  ">
               Get Started <ArrowForwardIosIcon />
             </button>
           </div>

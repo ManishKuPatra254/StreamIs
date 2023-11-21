@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React, { Fragment, useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -8,7 +9,7 @@ import AccordionDetails from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-export function FrequentlyAskedQuestions() {
+export function FAQs() {
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
@@ -21,7 +22,7 @@ export function FrequentlyAskedQuestions() {
       <div className="mt-10">
         <div className="">
           <h1 className="text-center text-5xl font-extrabold max-lg:text-3xl p-2">
-            Frequently Asked Questions
+            FAQ's
           </h1>
         </div>
 
@@ -104,52 +105,6 @@ export function FrequentlyAskedQuestions() {
                 Watch Streamis on your smartphone, tablet, Smart TV, laptop, or
                 streaming device, all for one fixed monthly fee. Plans range
                 from ₹ 100 to ₹ 400 a month. No extra costs, no contracts.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion
-            sx={{ backgroundColor: "#2c2c2c" }}
-            expanded={expanded === "panel3"}
-            onChange={handleChange("panel3")}
-          >
-            <AccordionSummary
-              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
-              aria-controls="panel3bh-content"
-              id="panel3bh-header"
-            >
-                <Typography
-                sx={{
-                  color: "white",
-                  fontSize: "26px",
-                  "@media screen and (max-width: 1024px)": {
-                    fontSize: "16px",
-                  },
-                }}
-              >
-                {" "}
-                Where can I watch ?
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-                <Typography
-                sx={{
-                  color: "white",
-                  fontSize: "22px",
-                  "@media screen and (max-width: 1024px)": {
-                    fontSize: "16px",
-                  },
-                }}
-              >
-                Watch anywhere, anytime. Sign in with your Streamis account to
-                watch instantly on the web at streamis.com from your personal
-                computer or on any internet-connected device that offers the
-                Streamis app, including smart TVs, smartphones, tablets,
-                streaming media players and game consoles.
-                <br /> <br />
-                You can also download your favourite shows with the iOS,
-                Android, or Windows 10 app. Use downloads to watch while you are
-                on the go and without an internet connection. Take Streamis with
-                you anywhere.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -300,7 +255,7 @@ export function FrequentlyAskedQuestions() {
               }}
             />
 
-            <button className="bg-sky-900 hover:bg-sky-950 transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold max-lg:w-3/4">
+            <button className="bg-[#3d0000] hover:bg-[#fff] hover:text-[#000] transition duration-500 ease-in-out p-4 rounded text-xl font-extrabold max-lg:w-3/4">
               Get Started <ArrowForwardIosIcon />
             </button>
           </div>
