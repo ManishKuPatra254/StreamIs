@@ -47,7 +47,7 @@ export function BollywoodHits() {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
           centerMode: true,
         },
@@ -103,6 +103,10 @@ export function BollywoodHits() {
                   >
                     <Box
                       sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "center",
                         position: "absolute",
                         top: "50%",
                         left: "50%",
@@ -110,7 +114,7 @@ export function BollywoodHits() {
                         width: "85%",
                         height: "85%",
                         "@media screen and (max-width: 1024px)": {
-                          width: "90%",
+                          width: "100%",
                           height: "50%",
                         },
                       }}
