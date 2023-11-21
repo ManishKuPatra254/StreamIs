@@ -9,15 +9,11 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: "codervent.com",
-            },
-            {
-                protocol: 'https',
                 hostname: "wallpapercave.com",
             },
             {
                 protocol: 'https',
-                hostname: "themoviedb.org",
+                hostname: "www.themoviedb.org",
             },
         ],
     },

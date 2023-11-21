@@ -6,10 +6,10 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 export function Footer() {
   return (
     <Fragment>
-      <div className="bg-gray-300 w-full h-auto px-16 py-16 text-black max-lg:px-4 max-lg:py-4">
+      <div className="mt-14 bg-gray-300 w-full h-auto px-16 py-16 text-black max-lg:px-4 max-lg:py-4">
         <div className="flex items-center justify-between mb-5 max-lg:flex-col gap-4 ">
           <h4 className="font-bold pr-72 max-lg:pr-0 text-justify ">
-            <strong className="text-sky-700 text-4xl max-lg:text-2xl">
+            <strong className="text-[#3D0000] text-4xl max-lg:text-2xl">
               Streamis
             </strong>{" "}
             is a video streaming app that offers thousands of hours of premium,

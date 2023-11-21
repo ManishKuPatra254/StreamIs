@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "images_movie": "https://codervent.com/synplayer/assets/images/romantic-movies/06.png",
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BMDkxM2FmZTYtN2JlNi00YTNkLWIxMGYtYWE5MmFmOTY1NWE0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
         "links_new": "https://youtu.be/TIE92mUvSsw?si=n-Z_AJ7GlGgPLOYt"
     },
     {
         "id": 2,
-        "images_movie": "https://codervent.com/synplayer/assets/images/romantic-movies/05.png",
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BMWJkMjJiNzMtNzhmOC00MjQ3LTg5MmEtMTRkMTg1ZjQ2ZmM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNDkxMzY0Mjk@._V1_FMjpg_UX1000_.jpg",
         "links_new": "https://youtu.be/om7uaoXqG3U?si=HAAi2n2aURGHHMrQ"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
         "id": 8,
-        "images_movie": "https://codervent.com/synplayer/assets/images/romantic-movies/08.png",
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BNmE5ZmE3OGItNTdlNC00YmMxLWEzNjctYzAwOGQ5ODg0OTI0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
         "links_new": "https://youtu.be/0gWeEk2QjdY?si=eRqxiSdDxGW0Ghfq"
     },
     {
         "id": 9,
-        "images_movie": "https://codervent.com/synplayer/assets/images/romantic-movies/06.png",
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BMDkxM2FmZTYtN2JlNi00YTNkLWIxMGYtYWE5MmFmOTY1NWE0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
         "links_new": "https://youtu.be/TIE92mUvSsw?si=n-Z_AJ7GlGgPLOYt"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "id": 12,
-        "images_movie": "https://codervent.com/synplayer/assets/images/romantic-movies/01.png",
+        "images_movie": "https://m.media-amazon.com/images/M/MV5BMTkzNzNiMjItNTc3ZC00YzhlLWEyYzYtZWNhZDkwNGM5ZGU0XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
         "links_new": "https://youtu.be/p13hKXKWtsU?si=YMu4biU6GfmOuKbW"
     },
     {
