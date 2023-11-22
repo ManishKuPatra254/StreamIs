@@ -13,8 +13,8 @@ export function Footer() {
               Streamis
             </strong>{" "}
             is a video streaming app that offers thousands of hours of premium,
-            exclusive and original content from leading Producers and
-            Publishers. The platform lays focus on Exclusive Original Content
+            exclusive and original content from leading producers and
+            publishers. The platform lays focus on exclusive original content
             with emphasis.
           </h4>
 
