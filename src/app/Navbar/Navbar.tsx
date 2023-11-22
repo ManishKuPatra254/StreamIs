@@ -44,7 +44,7 @@ export function Navbar() {
                 maxWidth: "40%",
                 width: "100%",
                 "@media screen and (max-width: 1024px)": {
-                  maxWidth: "90%",
+                  maxWidth: "91%",
                 },
                 border: "3px solid white",
                 borderRadius: "5px",
