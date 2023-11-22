@@ -21,45 +21,45 @@ export function FAQs() {
     <Fragment>
       <div className="mt-10">
         <div className="">
-          <h1 className="text-center text-5xl font-extrabold max-lg:text-3xl p-2">
+          <h1 className="text-center text-8xl font-extrabold max-lg:text-6xl p-2">
             FAQ's
           </h1>
         </div>
 
         <div className="mt-10 w-4/5 m-auto">
           <Accordion
-            sx={{ backgroundColor: "#2c2c2c" }}
+            sx={{ backgroundColor: "#fff" }}
             expanded={expanded === "panel1"}
             onChange={handleChange("panel1")}
           >
             <AccordionSummary
-              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "black" }} />}
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
               <Typography
                 sx={{
-                  color: "white",
+                  color: "black",
                   fontSize: "26px",
                   "@media screen and (max-width: 1024px)": {
                     fontSize: "16px",
                   },
                 }}
               >
-                What is Streamis ?
+                What is StreamIs ?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
                 <Typography
                 sx={{
-                  color: "white",
+                  color: "black",
                   fontSize: "22px",
                   "@media screen and (max-width: 1024px)": {
                     fontSize: "16px",
                   },
                 }}
               >
-                Streamis is a streaming service that offers a wide variety of
+                StreamIs is a streaming service that offers a wide variety of
                 award-winning TV shows, movies, anime, documentaries and more –
                 on thousands of internet-connected devices.
                 <br /> <br />
@@ -89,7 +89,7 @@ export function FAQs() {
                 }}
               >
                 {" "}
-                How much does Streamis cost ?
+                How much does StreamIs cost ?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -102,7 +102,7 @@ export function FAQs() {
                   },
                 }}
               >
-                Watch Streamis on your smartphone, tablet, Smart TV, laptop, or
+                Watch StreamIs on your smartphone, tablet, Smart TV, laptop, or
                 streaming device, all for one fixed monthly fee. Plans range
                 from ₹ 100 to ₹ 400 a month. No extra costs, no contracts.
               </Typography>
@@ -141,7 +141,7 @@ export function FAQs() {
                   },
                 }}
               >
-                Streamis is flexible. There are no annoying contracts and no
+                StreamIs is flexible. There are no annoying contracts and no
                 commitments. You can easily cancel your account online in two
                 clicks. There are no cancellation fees – start or stop your
                 account anytime.
@@ -168,7 +168,7 @@ export function FAQs() {
                 }}
               >
                 {" "}
-                What I can watch on Streamis ?
+                What I can watch on StreamIs ?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -181,26 +181,26 @@ export function FAQs() {
                   },
                 }}
               >
-                Streamis has an extensive library of feature films,
-                documentaries, TV shows, anime, award-winning Streamis
+                StreamIs has an extensive library of feature films,
+                documentaries, TV shows, anime, award-winning StreamIs
                 originals, and more. Watch as much as you want, anytime you
                 want.
               </Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
-            sx={{ backgroundColor: "#2c2c2c" }}
+            sx={{ backgroundColor: "#fff" }}
             expanded={expanded === "panel6"}
             onChange={handleChange("panel6")}
           >
             <AccordionSummary
-              expandIcon={<KeyboardArrowDownIcon sx={{ color: "white" }} />}
+              expandIcon={<KeyboardArrowDownIcon sx={{ color: "black" }} />}
               aria-controls="panel6bh-content"
               id="panel6bh-header"
             >
                 <Typography
                 sx={{
-                  color: "white",
+                  color: "black",
                   fontSize: "26px",
                   "@media screen and (max-width: 1024px)": {
                     fontSize: "16px",
@@ -208,20 +208,20 @@ export function FAQs() {
                 }}
               >
                 {" "}
-                Is Streamis good for kids ?
+                Is StreamIs good for kids ?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
                 <Typography
                 sx={{
-                  color: "white",
+                  color: "black",
                   fontSize: "22px",
                   "@media screen and (max-width: 1024px)": {
                     fontSize: "16px",
                   },
                 }}
               >
-                The Netflix Kids experience is included in your membership to
+                The StreamIs Kids experience is included in your membership to
                 give parents control while kids enjoy family-friendly TV shows
                 and films in their own space.
               </Typography>

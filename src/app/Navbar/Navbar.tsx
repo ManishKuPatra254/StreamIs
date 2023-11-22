@@ -10,7 +10,8 @@ export function Navbar() {
       <div className="main_one">
         <div className=" inset-0 flex justify-between items-start px-4 py-3 lg:flex lg:flex-row lg:items-start lg:px-24">
           <h1 className=" heads_one  p-1 text-2xl lg:text-5xl inline px-4">
-          <strong className="text-[#dc6f54]">S</strong>tream<strong className="text-[#dc6f54]">I</strong>s 
+            <strong className="text-[#dc6f54]">S</strong>tream
+            <strong className="text-[#dc6f54]">I</strong>s
           </h1>
           <div className="flex gap-3 p-1">
             <select
@@ -29,10 +30,10 @@ export function Navbar() {
           </div>
         </div>
         <div className="block">
-          <h1 className="text-center text-3xl font-extrabold mt-44 px-4 lg:text-6xl lg:px-72">
+          <h1 className="text-center mt-32 mb-10 text-6xl font-extrabold px-24 max-lg:text-3xl max-lg:px-2 max-xl:mt-20">
             Get unlimited access to movies , TV shows , web series and more
           </h1>
-          <div className="flex items-center flex-col justify-center mt-7 gap-3 max-lg:flex-col">
+          <div className="flex items-center flex-col justify-center gap-3 max-lg:flex-col">
             <TextField
               label="Email address"
               variant="filled"

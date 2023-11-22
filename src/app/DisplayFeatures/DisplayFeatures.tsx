@@ -8,8 +8,9 @@ import Image from "next/image";
 export function DisplayFeatures() {
   return (
     <Fragment>
-      <div className="flex flex-col gap-16 mt-24 max-lg:mt-12 max-lg:gap-14">
-        <div className="flex items-center justify-around py-12 border-y-8 border-y-neutral-800 max-lg:flex-col">
+      <div className=" flex flex-col gap-16 mt-24 max-lg:mt-12 max-lg:gap-14">
+        <h1 className="text-center text-8xl font-[900] max-lg:text-6xl">Benefits</h1>
+        <div className="flex items-center justify-around py-12 border-y-neutral-800 max-lg:flex-col">
           <div className="p-24 max-lg:p-3">
             <h1 className="text-5xl py-3 font-extrabold max-lg:text-4xl p-4 max-lg:text-center">
               Enjoy on your TV
