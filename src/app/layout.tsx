@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/public/8103873.png" type="image/x-icon" />
+      </head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
